@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.opcao h1 {
+   margin: 75px auto 80px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+    
+    width: 200px;
+    height: 60px;
+    background-color: rgb(52, 43, 226);
+
+    
+    border-radius: 8px;
+
+    margin: auto;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 50px;
+
+    
+}
